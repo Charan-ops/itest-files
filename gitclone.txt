@@ -114,3 +114,13 @@ http {
         }
     }
 }
+
+
+
+cd /srv/www
+#Download alpine link
+wget <paste the link here>
+#Untar it
+tar -xzf alpine*
+#Delete the tar
+rm alpine-netboot*
